@@ -635,27 +635,6 @@ textarea,
   .home-bg-logo img {
 	float: left; display: block; height: 100%; width: auto; user-select: none;
 	}
-
-/* my code here*/
-
-@media (max-width: 768px) {
-    .home-bg {
-        /* Adjust properties to take the place of .home-bg-logo */
-        top: 5%; /* Adjust to match the position of .home-bg-logo */
-        left: 0;
-        right: 0;
-        bottom: auto;
-        width: 100%;
-        height: auto;
-        opacity: 1; /* Ensure visibility */
-    }
-
-    .home-bg-logo {
-        display: none; /* Hide .home-bg-logo on mobile devices */
-    }
-}
-
-
   .home-heading {
 	z-index: 3; text-align: center; margin: 0 auto; width: 100%; transform: translateX(-9%); color: #111; user-select: none;
 	}
@@ -672,14 +651,14 @@ textarea,
 	margin: 4vh 0 10vh;
 	} 
   
-  /* small screens */
-  @media screen and (max-width: 991px) {
+  /* small screens 991px by default*/
+  @media screen and (max-width: 768px) {
 	.one-page-layout .home-heading {
 	  align-self: flex-start; margin-top: 7vh; text-align: left; padding-left: calc(20px + 17vw);
 	  }
   }
   /* phone landscape */
-  @media only screen and (max-device-width: 991px) and (max-device-height: 500px)  { 
+  @media only screen and (max-device-width: 768px) and (max-device-height: 500px)  { 
 	  .home-heading {
 		  text-align: center; 
 		  }
