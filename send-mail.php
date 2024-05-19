@@ -1,9 +1,9 @@
 <?php
 
 	// site owner
-	$site_name = 'ikonik HTML5 Template';
-	$sender_domain = 'server@your-domain.com';
-	$to = 'jonhdoeeee@jonhdoe.com';
+	$site_name = 'Jubair Amin Siyum | Portfolio';
+	$sender_domain = 'mail@jubairsiyum.github.io';
+	$to = 'jubairprogprodigy@gmail.com';
 	
 	// contact form fields
 	$name = trim( $_POST['name'] );
