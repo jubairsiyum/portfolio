@@ -641,10 +641,10 @@ textarea,
 @media (max-width: 768px) {
     .home-bg {
         /* Adjust properties to take the place of .home-bg-logo */
-        top: 5%;
-        bottom: auto;
+        top: 5%; /* Adjust to match the position of .home-bg-logo */
         left: 0;
-        right: auto;
+        right: 0;
+        bottom: auto;
         width: 100%;
         height: auto;
         opacity: 1; /* Ensure visibility */
