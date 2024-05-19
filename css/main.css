@@ -635,6 +635,27 @@ textarea,
   .home-bg-logo img {
 	float: left; display: block; height: 100%; width: auto; user-select: none;
 	}
+
+/* my code here*/
+
+@media (max-width: 768px) {
+    .home-bg {
+        /* Adjust properties to take the place of .home-bg-logo */
+        top: 5%;
+        bottom: auto;
+        left: 0;
+        right: auto;
+        width: 100%;
+        height: auto;
+        opacity: 1; /* Ensure visibility */
+    }
+
+    .home-bg-logo {
+        display: none; /* Hide .home-bg-logo on mobile devices */
+    }
+}
+
+
   .home-heading {
 	z-index: 3; text-align: center; margin: 0 auto; width: 100%; transform: translateX(-9%); color: #111; user-select: none;
 	}
