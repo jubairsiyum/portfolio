@@ -652,13 +652,13 @@ textarea,
 	} 
   
   /* small screens 991px by default*/
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 991px) {
 	.one-page-layout .home-heading {
 	  align-self: flex-start; margin-top: 7vh; text-align: left; padding-left: calc(20px + 17vw);
 	  }
   }
   /* phone landscape */
-  @media only screen and (max-device-width: 768px) and (max-device-height: 500px)  { 
+  @media only screen and (max-device-width: 991px) and (max-device-height: 500px)  { 
 	  .home-heading {
 		  text-align: center; 
 		  }
